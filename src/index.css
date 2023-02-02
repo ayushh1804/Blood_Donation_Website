@@ -7,13 +7,11 @@
     --primary-light: #709dff;
 
 }
+@layer base{{
+    @apply scroll-smooth
+}
 
-@layer base{
-    html{
-        @apply scroll-smooth;
-
-    }
-    body{
+body{
         @apply font-[poppis]
     }
     li{
