@@ -2,7 +2,7 @@ import React from "react";
 
 const Book = () => {
   return (
-    <div id="deals" className="max-w-[1140px] w-auto p-4">
+    <div id="deals" className="max-w-[1140px] m-auto w-full p-4">
       <form className="lg:flex lg:justify-between w-full items-center">
         <div className="flex flex-col my-2 py-2">
           <label>Destination </label>
@@ -26,7 +26,7 @@ const Book = () => {
           </div>
         </div>
         <div className="flex flex-col w-full">
-          <label className=" flex justify-center my-2">Search</label>
+          <label className=" flex justify-center ">Search</label>
           <button>Rates and Availability</button>
         </div>
       </form>
