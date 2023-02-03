@@ -2,7 +2,7 @@ import React from "react";
 import contactimg from "./assets/gallery.jpg";
 const Contact = () => {
   return (
-    <div id="contact" className="max-w-[1140px] m-auto w-full py-16 p-4">
+    <div id="contact" className="max-w-[1140px] m-auto w-full py-16 p-4" id="contact">
       <h2 className="text-center text-gray-700 ">send us a message</h2>
       <p className="text-center text-gray-700 py-2">We're waiting </p>
       <div className="grid md:grid-cols-2">

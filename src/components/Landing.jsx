@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "./assets/navbar.jpg";
 const Landing = () => {
   return (
-   <div className='w-full h-[90vh]'>
+   <div className='w-full h-[90vh]' id="landing">
     <img src={logo} alt="" className='w-full h-full object-cover' />
     <div className='max-w-[1140px] m-auto'>
         <div className='absolute top-[40%] w-full md:-[50%] max-w-[600px] flex flex-col text-white p-4'>
