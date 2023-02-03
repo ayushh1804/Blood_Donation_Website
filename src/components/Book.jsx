@@ -27,7 +27,7 @@ const Book = () => {
         </div>
         <div className="flex flex-col w-full">
           <label className=" flex justify-center ">Search</label>
-          <button>Rates and Availability</button>
+          <button className="px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white">Rates and Availability</button>
         </div>
       </form>
     </div>

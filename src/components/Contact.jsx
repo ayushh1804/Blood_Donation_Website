@@ -1,8 +1,8 @@
 import React from "react";
-import contactimg from "./assets/gallery.jpg";
+import contactimg from "./assets/contactimg.jpg";
 const Contact = () => {
   return (
-    <div id="contact" className="max-w-[1140px] m-auto w-full py-16 p-4" id="contact">
+    <div id="contact" className="max-w-[1140px] m-auto w-full py-16 p-4">
       <h2 className="text-center text-gray-700 ">send us a message</h2>
       <p className="text-center text-gray-700 py-2">We're waiting </p>
       <div className="grid md:grid-cols-2">
@@ -50,7 +50,7 @@ const Contact = () => {
               cols="30"
               rows="10"
             ></textarea>
-            <button className="col-span-2 m-2 p-2 rounded-md">Submit</button>
+            <button className="col-span-2 m-2 p-2 rounded-md px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white">Submit</button>
           </div>
         </form>
       </div>
