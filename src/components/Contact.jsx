@@ -50,7 +50,7 @@ const Contact = () => {
               cols="30"
               rows="10"
             ></textarea>
-            <button className="col-span-2 m-2 p-2 rounded-md px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white">Submit</button>
+            <button className="col-span-2 m-2 p-2 rounded-md px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white"><a href = "mailto: abc@example.com" >Send Mail</a></button>
           </div>
         </form>
       </div>
