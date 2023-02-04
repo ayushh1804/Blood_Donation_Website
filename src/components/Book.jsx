@@ -7,10 +7,11 @@ const Book = () => {
         <div className="flex flex-col my-2 py-2">
           <label>Destination </label>
           <select className="lg:w-[300px] md:w-full border rounded-md p-2">
-            <option>Leh</option>
-            <option>Leh</option>
-            <option>Leh</option>
-            <option>Leh</option>
+            <option>Solang Valley, Manali</option>
+            <option>Tso Moriri Lake, Ladakh</option>
+            <option>Camp Desert, Pushkar</option>
+            <option>Coorg Planter’s Camp, Coorg</option>
+            
           </select>
         </div>
         
